@@ -1,0 +1,110 @@
+nav {
+  height: 10vh;
+  background-color: #3b8beb;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  width: 5vw;
+  height: 5vh;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  transform: translate(15vw, 50%);
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navLinks a {
+  /* color can be changed in nav.js -> navStyle */
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .navLinks {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    /* position: relative; */
+  }
+
+  .burger {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    display: block;
+  }
+
+  .navLinks {
+    position: fixed;
+    background-color: #5b78c7;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -15%);
+    -webkit-clip-path: circle(100px at 100% -15%);
+    transition: all 1s ease-out;
+    z-index: 1;
+  }
+  .navLinks a {
+    font-size: 24px;
+  }
+
+  .navLinks.open {
+    clip-path: circle(1100px at 90% -10%);
+    -webkit-clip-path: circle(1100px at 90% -10%);
+    pointer-events: all;
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
