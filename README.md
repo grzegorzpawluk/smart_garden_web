@@ -1,2 +1,3 @@
-# smart_garden_web
-Web site for smart garden project
+# SmartGarden-web
+
+SmartGarden web page
