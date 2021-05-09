@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/smart_garden_web/static/css/main.5380736d.chunk.css",
+    "main.js": "/smart_garden_web/static/js/main.e509a750.chunk.js",
+    "main.js.map": "/smart_garden_web/static/js/main.e509a750.chunk.js.map",
+    "runtime-main.js": "/smart_garden_web/static/js/runtime-main.a135a1ef.js",
+    "runtime-main.js.map": "/smart_garden_web/static/js/runtime-main.a135a1ef.js.map",
+    "static/js/2.306649c6.chunk.js": "/smart_garden_web/static/js/2.306649c6.chunk.js",
+    "static/js/2.306649c6.chunk.js.map": "/smart_garden_web/static/js/2.306649c6.chunk.js.map",
+    "static/js/3.07a920b3.chunk.js": "/smart_garden_web/static/js/3.07a920b3.chunk.js",
+    "static/js/3.07a920b3.chunk.js.map": "/smart_garden_web/static/js/3.07a920b3.chunk.js.map",
+    "index.html": "/smart_garden_web/index.html",
+    "static/css/main.5380736d.chunk.css.map": "/smart_garden_web/static/css/main.5380736d.chunk.css.map",
+    "static/js/2.306649c6.chunk.js.LICENSE.txt": "/smart_garden_web/static/js/2.306649c6.chunk.js.LICENSE.txt",
+    "static/media/Login.module.css": "/smart_garden_web/static/media/background_login.9b7f77a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a135a1ef.js",
+    "static/js/2.306649c6.chunk.js",
+    "static/css/main.5380736d.chunk.css",
+    "static/js/main.e509a750.chunk.js"
+  ]
+}
