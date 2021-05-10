@@ -4,7 +4,7 @@ import NavStyles from './Nav.module.css';
 import { Link } from 'react-router-dom';
 import classes from 'classnames';
 import { MyContext } from './../context/MyContext';
-import Burger from './Burger';
+import BurgerIcon from './BurgerIcon';
 
 function Nav() {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -39,7 +39,7 @@ function Nav() {
             <li onClick={() => setMenuToggle(!menuToggle)}>Zaloguj</li>
           </Link>
         </ul>
-        <Burger menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
+        <BurgerIcon menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
       </nav>
     );
   }
@@ -53,9 +53,6 @@ function Nav() {
             : NavStyles.navLinks
         }
       >
-        <Link style={navStyle} to="/valves">
-          <li onClick={() => setMenuToggle(!menuToggle)}>Zawory</li>
-        </Link>
         <Link style={navStyle} to="/weather">
           <li onClick={() => setMenuToggle(!menuToggle)}>Pogoda</li>
         </Link>
@@ -76,7 +73,7 @@ function Nav() {
           </li>
         </Link>
       </ul>
-      <Burger menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
+      <BurgerIcon menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
     </nav>
   );
 }

@@ -3,15 +3,18 @@ import React, { useState } from 'react';
 import WeatherStyles from './Weather.module.css';
 
 function Weather() {
-  const [weatherInfo, setWeatherInfo] = useState(
-    'Temperatura: 0,Wilgotnosc: 0,Opady: 0,Jasnosc: 0'
-  );
+  const [weatherInfo, setWeatherInfo] = useState({
+    Temperatura: 0,
+    Wilgotnosc: 0,
+    Opady: 0,
+    Jasnosc: 0,
+  });
 
   const fetchWeather = async () => {
     const loginToken = localStorage.getItem('loginToken');
 
     if (loginToken) {
-      axios.defaults.headers['Authorization'] = 'bearer ' + loginToken;
+      axios.defaults.headers['Authorization'] = 'Bearer ' + loginToken;
 
       const { data } = await axios.get(
         'https://smartgarden.ddns.net/php-login-registration-api/weather-info.php'

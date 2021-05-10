@@ -23,7 +23,6 @@
 
 .form-login {
   position: relative;
-
   left: 50%;
   top: 10vh;
   background-color: rgba(0, 0, 0, 0.55);
@@ -45,7 +44,6 @@
   background-color: rgba(0, 0, 0, 0.55);
   position: relative;
   left: 50%;
-
   color: white;
   font-size: 18px;
   width: 80%;
@@ -57,7 +55,6 @@
   background-color: rgba(54, 138, 6, 0.85);
   position: relative;
   left: 50%;
-
   border: none;
   color: rgb(216, 215, 215);
   padding: 15px 32px;
@@ -67,22 +64,4 @@
   font-size: 16px;
   border-radius: 10px;
   transform: translate(-50%);
-}
-
-h4 {
-  border: 0 solid #fff;
-  border-bottom-width: 1px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.form-control {
-}
-
-.wrapper {
-  text-align: center;
-}
-
-.submit-button {
-  font-size: 20px;
 }

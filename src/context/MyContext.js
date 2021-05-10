@@ -33,7 +33,7 @@ function MyContextProvider(props) {
     const loginToken = localStorage.getItem('loginToken');
 
     if (loginToken) {
-      Axios.defaults.headers.common['Authorization'] = 'bearer ' + loginToken;
+      Axios.defaults.headers.common['Authorization'] = 'Bearer ' + loginToken;
 
       const { data } = await Axios.get('user-info.php');
 
@@ -54,6 +54,7 @@ function MyContextProvider(props) {
     loginUser: loginUser,
     logoutUser: logoutUser,
   };
+
   return (
     <MyContext.Provider value={contextValue}>
       {props.children}

@@ -4,7 +4,6 @@ import Nav from './Nav';
 import About from './About';
 import Weather from './Weather';
 import Contact from './Contact';
-import Valves from './Valves';
 import { MyContext } from './../context/MyContext';
 import Login from './Login';
 
@@ -26,7 +25,6 @@ function Home() {
             <div className="main">
               <Switch>
                 <Route path="/" exact component={Weather} />
-                <Route path="/valves" component={Valves} />
                 <Route path="/weather" component={Weather} />
                 <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />

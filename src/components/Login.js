@@ -29,6 +29,7 @@ function Login() {
   const submitForm = async (event) => {
     event.preventDefault();
     const data = await loginUser(state.userInfo);
+
     if (data.success && data.token) {
       setState({
         ...initialState,
@@ -43,15 +44,6 @@ function Login() {
       });
     }
   };
-
-  let successMsg = '';
-  let errorMsg = '';
-  if (state.errorMsg) {
-    errorMsg = <div>{state.errorMsg}</div>;
-  }
-  if (state.successMsg) {
-    successMsg = <div>{state.sucessMsg}</div>;
-  }
 
   return (
     <div className={LoginStyles.homepage}>
@@ -85,8 +77,8 @@ function Login() {
               onChange={onChangeValue}
             />
           </div>
-          {errorMsg}
-          {successMsg}
+          {state.errorMsg && <div>{state.errorMsg}</div>}
+          {state.successMsg && <div>{state.successMsg}</div>}
           <br></br>
           <div>
             <button className={LoginStyles['form-button']} type="submit">

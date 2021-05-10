@@ -41,19 +41,6 @@ nav {
   font-size: 14px;
 }
 
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #292929;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
 @media screen and (max-width: 1250px) {
   .navLinks {
     width: 70%;
@@ -61,20 +48,6 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    /* position: relative; */
-  }
-
-  .burger {
-    position: absolute;
-    cursor: pointer;
-    z-index: 2;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    display: block;
-  }
-
   .navLinks {
     position: fixed;
     background-color: #2d7206;
@@ -95,16 +68,4 @@ nav {
     -webkit-clip-path: circle(1100px at 90% -10%);
     pointer-events: all;
   }
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
