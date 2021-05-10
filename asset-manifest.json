@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/smart_garden_web/static/css/main.5380736d.chunk.css",
-    "main.js": "/smart_garden_web/static/js/main.d548dad7.chunk.js",
-    "main.js.map": "/smart_garden_web/static/js/main.d548dad7.chunk.js.map",
-    "runtime-main.js": "/smart_garden_web/static/js/runtime-main.8bc5095b.js",
-    "runtime-main.js.map": "/smart_garden_web/static/js/runtime-main.8bc5095b.js.map",
-    "static/js/2.8280fb62.chunk.js": "/smart_garden_web/static/js/2.8280fb62.chunk.js",
-    "static/js/2.8280fb62.chunk.js.map": "/smart_garden_web/static/js/2.8280fb62.chunk.js.map",
-    "static/js/3.c8f50c45.chunk.js": "/smart_garden_web/static/js/3.c8f50c45.chunk.js",
-    "static/js/3.c8f50c45.chunk.js.map": "/smart_garden_web/static/js/3.c8f50c45.chunk.js.map",
+    "main.css": "/smart_garden_web/static/css/main.cb5a35b9.chunk.css",
+    "main.js": "/smart_garden_web/static/js/main.1f124470.chunk.js",
+    "main.js.map": "/smart_garden_web/static/js/main.1f124470.chunk.js.map",
+    "runtime-main.js": "/smart_garden_web/static/js/runtime-main.78201de2.js",
+    "runtime-main.js.map": "/smart_garden_web/static/js/runtime-main.78201de2.js.map",
+    "static/js/2.9f67eaf1.chunk.js": "/smart_garden_web/static/js/2.9f67eaf1.chunk.js",
+    "static/js/2.9f67eaf1.chunk.js.map": "/smart_garden_web/static/js/2.9f67eaf1.chunk.js.map",
+    "static/js/3.7fc580a2.chunk.js": "/smart_garden_web/static/js/3.7fc580a2.chunk.js",
+    "static/js/3.7fc580a2.chunk.js.map": "/smart_garden_web/static/js/3.7fc580a2.chunk.js.map",
     "index.html": "/smart_garden_web/index.html",
-    "static/css/main.5380736d.chunk.css.map": "/smart_garden_web/static/css/main.5380736d.chunk.css.map",
-    "static/js/2.8280fb62.chunk.js.LICENSE.txt": "/smart_garden_web/static/js/2.8280fb62.chunk.js.LICENSE.txt",
-    "static/media/Login.module.css": "/smart_garden_web/static/media/background_login.9b7f77a7.jpg"
+    "static/css/main.cb5a35b9.chunk.css.map": "/smart_garden_web/static/css/main.cb5a35b9.chunk.css.map",
+    "static/js/2.9f67eaf1.chunk.js.LICENSE.txt": "/smart_garden_web/static/js/2.9f67eaf1.chunk.js.LICENSE.txt",
+    "static/media/Login.module.css": "/smart_garden_web/static/media/background_login.9b7f77a7.jpg",
+    "static/media/system_diagram.3758ff24.png": "/smart_garden_web/static/media/system_diagram.3758ff24.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8bc5095b.js",
-    "static/js/2.8280fb62.chunk.js",
-    "static/css/main.5380736d.chunk.css",
-    "static/js/main.d548dad7.chunk.js"
+    "static/js/runtime-main.78201de2.js",
+    "static/js/2.9f67eaf1.chunk.js",
+    "static/css/main.cb5a35b9.chunk.css",
+    "static/js/main.1f124470.chunk.js"
   ]
 }
