@@ -6,9 +6,9 @@
 
 html,
 body {
-  height: 90vh;
-  font-family: Georgia, serif;
   background-color: #454852;
+  font-family: Georgia, serif;
+  height: 90vh;
 }
 
 h1 {

@@ -1,46 +1,46 @@
 .contact {
-  text-align: center;
   color: rgb(250, 250, 250);
+  text-align: center;
 }
 h1 {
   text-align: center;
 }
 .tooltip {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
   width: 120px;
   background-color: #555;
-  color: #fff;
-  text-align: center;
+  bottom: 125%;
   border-radius: 6px;
+  color: #fff;
+  margin-left: -60px;
+  left: 50%;
+  opacity: 0;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
   transition: opacity 0.3s;
+  text-align: center;
+  visibility: hidden;
+  z-index: 1;
 }
 
 .tooltip .tooltiptext::after {
+  border-color: #555 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px;
   content: '';
-  position: absolute;
-  top: 100%;
   left: 50%;
   margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  position: absolute;
+  top: 100%;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
   opacity: 1;
+  visibility: visible;
 }
 
 .email:active {
