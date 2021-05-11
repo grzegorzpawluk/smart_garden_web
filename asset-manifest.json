@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/smart_garden_web/static/css/main.cb5a35b9.chunk.css",
-    "main.js": "/smart_garden_web/static/js/main.1f124470.chunk.js",
-    "main.js.map": "/smart_garden_web/static/js/main.1f124470.chunk.js.map",
+    "main.css": "/smart_garden_web/static/css/main.e09d51eb.chunk.css",
+    "main.js": "/smart_garden_web/static/js/main.1f9535fd.chunk.js",
+    "main.js.map": "/smart_garden_web/static/js/main.1f9535fd.chunk.js.map",
     "runtime-main.js": "/smart_garden_web/static/js/runtime-main.78201de2.js",
     "runtime-main.js.map": "/smart_garden_web/static/js/runtime-main.78201de2.js.map",
     "static/js/2.9f67eaf1.chunk.js": "/smart_garden_web/static/js/2.9f67eaf1.chunk.js",
@@ -10,15 +10,16 @@
     "static/js/3.7fc580a2.chunk.js": "/smart_garden_web/static/js/3.7fc580a2.chunk.js",
     "static/js/3.7fc580a2.chunk.js.map": "/smart_garden_web/static/js/3.7fc580a2.chunk.js.map",
     "index.html": "/smart_garden_web/index.html",
-    "static/css/main.cb5a35b9.chunk.css.map": "/smart_garden_web/static/css/main.cb5a35b9.chunk.css.map",
+    "static/css/main.e09d51eb.chunk.css.map": "/smart_garden_web/static/css/main.e09d51eb.chunk.css.map",
     "static/js/2.9f67eaf1.chunk.js.LICENSE.txt": "/smart_garden_web/static/js/2.9f67eaf1.chunk.js.LICENSE.txt",
     "static/media/Login.module.css": "/smart_garden_web/static/media/background_login.9b7f77a7.jpg",
-    "static/media/system_diagram.3758ff24.png": "/smart_garden_web/static/media/system_diagram.3758ff24.png"
+    "static/media/system_diagram.3758ff24.png": "/smart_garden_web/static/media/system_diagram.3758ff24.png",
+    "static/media/webapp.335fd2ce.png": "/smart_garden_web/static/media/webapp.335fd2ce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.78201de2.js",
     "static/js/2.9f67eaf1.chunk.js",
-    "static/css/main.cb5a35b9.chunk.css",
-    "static/js/main.1f124470.chunk.js"
+    "static/css/main.e09d51eb.chunk.css",
+    "static/js/main.1f9535fd.chunk.js"
   ]
 }
